@@ -3,7 +3,7 @@
 [![CI](https://github.com/datalens-tech/cleanup-folder-action/workflows/Check%20PR/badge.svg)](https://github.com/datalens-tech/cleanup-folder-action/actions?query=workflow%3A%22%22Check+PR%22%22)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-cleanup-folder-action-blue.svg)](https://github.com/marketplace/actions/cleanup-folder-action)
 
-cleanup-folder-action
+Action for delete data from action`s workdir
 
 ## Usage
 
@@ -12,26 +12,18 @@ cleanup-folder-action
 ```yaml
 jobs:
   cleanup-folder-action:
-    permissions:
-      contents: read
-
     steps:
       - name: cleanup-folder-action
-        id: cleanup-folder-action
         uses: datalens-tech/cleanup-folder-action@v1
 ```
 
 ### Action Inputs
 
-| Name          | Description  | Default |
-| ------------- | ------------ | ------- |
-| `placeholder` | Placeholder. |         |
+None
 
 ### Action Outputs
 
-| Name          | Description  |
-| ------------- | ------------ |
-| `placeholder` | Placeholder. |
+None
 
 ## Development
 
